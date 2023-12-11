@@ -7,6 +7,9 @@ export default function Main() {
   return (
     <div className="container--main">
       <CatCard />
+      <CatCard />
+      <CatCard />
+      <CatCard />
     </div>
   );
 }

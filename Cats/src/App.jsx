@@ -1,5 +1,7 @@
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Card";
+/*Custom font and default white text CSS*/
+import "./styleBody.css";
 
 function App() {
   return (
