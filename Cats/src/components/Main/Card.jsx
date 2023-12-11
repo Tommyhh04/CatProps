@@ -6,10 +6,14 @@ import CatCard from "./ContactCard/CatCards";
 export default function Main() {
   return (
     <div className="container--main">
-      <CatCard />
-      <CatCard />
-      <CatCard />
-      <CatCard />
+      <CatCard name="Luna" email="luna@catmail.com" phone="+1 (555) 123-4567" />
+      <CatCard name="Milo" email="milo@meow.com" phone="+1 (555) 234-5678" />
+      <CatCard
+        name="Oliver"
+        email="oliver@purrfect.com"
+        phone="+1 (555) 345-6789"
+      />
+      <CatCard name="Bella" email="bella@kitty.com" phone="+1 (555) 456-7890" />
     </div>
   );
 }
