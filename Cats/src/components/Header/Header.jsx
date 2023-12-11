@@ -4,8 +4,8 @@ import "./HeaderStyle.css";
 export default function Header() {
   return (
     <div className="Header">
-      <h1>Need cats?</h1>
-      <h2>We got cats!</h2>
+      <h2>Need cats?</h2>
+      <h1>We got cats!</h1>
     </div>
   );
 }
