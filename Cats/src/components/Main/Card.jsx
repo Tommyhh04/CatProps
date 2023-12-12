@@ -6,7 +6,12 @@ import CatCard from "./ContactCard/CatCards";
 export default function Main() {
   return (
     <div className="container--main">
-      <CatCard name="Luna" email="luna@catmail.com" phone="+1 (555) 123-4567" />
+      <CatCard
+        name="Luna"
+        email="luna@catmail.com"
+        phone="+1 (555) 123-4567"
+        img="../Images/Luna.jpg"
+      />
       <CatCard name="Milo" email="milo@meow.com" phone="+1 (555) 234-5678" />
       <CatCard
         name="Oliver"
