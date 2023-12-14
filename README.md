@@ -1,2 +1,2 @@
 # CatProps
-Props practice to get better undestanding of the use of props in react
+Just a little project to help me get better undestanding of the use of props.
